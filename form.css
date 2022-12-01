@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+.btn{
+    border-radius: 10px;
+}
+
+.btn3{
+
+    border: none;
+    padding: 10px 25px;
+    font-size:15px ;
+    border-radius:10px ;
+}
+.btn3:hover{
+background-color: blue;
+}

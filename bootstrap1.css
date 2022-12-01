@@ -1,0 +1,28 @@
+.crd1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* padding: 10px; */
+    margin: 20px;
+    
+}
+
+.hover{
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: .8s;
+    box-sizing: border-box;
+}
+.hover:hover{
+   
+    background-color: red;
+    
+    
+}
+.nav1 a{
+    padding: 20px;
+
+}
