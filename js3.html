@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <div id="dell">
+     
+       
+  </div>
+
+    <script>
+       
+  const series = [{
+    name:"breaking bad",
+    rating:9.4
+
+  },{
+    name:"game of thrones",
+rating:9.0
+  },{
+    name:"succession",
+    rating:8.6
+  },{
+    name:"FRIENDS",
+    rating:9.8
+  }
+]
+
+
+const allseries=()=>{
+    localStorage.setItem("series",JSON.stringify(series))
+}
+
+
+    var getseries1=JSON.parse(localStorage.getItem("series"))
+  console.log(getseries1);
+
+
+allseries();
+
+document.getElementById("dell").innerHTML =getseries1.map(data=>
+  `
+  <div>
+
+    <h3>${data.name}</h3>
+    <h3>${data.rating}</h3>
+
+   </div>
+  `
+)
+
+    </script>
+
+
+</body>
+</html>

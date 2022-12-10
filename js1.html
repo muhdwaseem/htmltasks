@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <div id="a1"> </div>
+    <script>
+      //   student={id:100,name:"waseem",department:"computer science"}
+      //   console.log(student);
+      //   document.write(student.id+" "+student.name+" "+student.department);
+      //   document.write("<br>");
+      //  var club = [{name:"manchester city",player:"foden",no:10}];
+               
+      //     for(i=0;i<club.length;i++){
+      //       document.write(club[i].name+"<br>"+club[i].player+"<br>"+club[i].no);
+      //       console.log(club);
+      //     }
+      //     document.write("<br>");
+      //     document.write("<br>");
+
+          //string 
+          var str = "welcome to matrix";
+          document.write(str);
+          document.write("<br>");
+          document.write("<br>");
+      //string index
+        var str = "hello world"
+        document.getElementById("a1").innerHTML=str.charAt(6);
+        document.write("<br>");
+       
+//concat
+       var str1= "my name is  "
+       var srt2  ="john wick"
+       var total = str1.concat(srt2);
+       document.write(total);
+       document.write("<br>");
+       document.write("<br>");
+
+       //to uppercase
+        var up = "the name bond james bond"
+        var up1 = up.toUpperCase();
+        document.write(up1);
+        document.write("<br>");
+       document.write("<br>");
+
+        //to lowercase
+       
+        var lc = "inception"
+        var lc1 = lc.toLowerCase();
+        document.write(lc1);
+        document.write("<br>");
+       document.write("<br>");
+
+
+        //to slice
+        var sl = "welcome to shawshank"
+        var slt = sl.slice(5,10);
+        document.write(slt);
+        document.write("<br>");
+       document.write("<br>");
+
+       //function 
+       document.write("the message");
+       function msg(){
+        alert("no error");
+       }
+
+   
+       function multi(){
+       
+        var n =document.writeln();
+        var nt =n*n*n;
+        document.write(nt);
+       }
+       document.write(multi());
+
+       document.write("<br>")
+       function rv(){
+        return "House of dragon";
+        
+       }
+       document.write(rv());
+      
+       
+       
+        
+    </script>
+   <input type="button" onclick="msg()" value="Enter">
+   <br>
+   
+  <input type="text" >
+   <input type="button" onclick="multi()" value="value">
+   
+     <p>return</p>
+ 
+
+</body>
+</html>

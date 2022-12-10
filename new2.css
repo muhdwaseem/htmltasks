@@ -1,0 +1,44 @@
+.one{
+    /* background-color: rgb(50,70,0 ); */
+    color: rgb(1, 2, 0);
+    opacity: 1;
+    /* border: solid 1px blueviolet; */
+    background:rgb(50,70,0 ) url(https://tse2.mm.bing.net/th?id=OIP.H69MBo_coOGHEGt5kw2-5gHaEo&pid=Api&P=0)  left fixed ;
+
+}
+.one h1{
+    /* background-color: aqua;
+       border: solid 1px aqua; */
+}
+*{
+    /* 
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.H69MBo_coOGHEGt5kw2-5gHaEo&pid=Api&P=0);
+    background-repeat: repeat-x;
+    background-position:left;
+    background-attachment: fixed; */
+    /* background-color: aqua; */
+  
+    
+}
+.one p{
+    border: 2px solid black;
+    background-color: beige;
+   
+    margin:100px 150px;
+    /* padding:100px 100px 140px 150px ; */
+    
+
+
+}
+.a1 {
+    display: block;
+    background-color: dodgerblue;
+    border: 1px solid black;
+    padding: 20px 30px;
+    margin: 100px 150px;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    float: left;
+}
+

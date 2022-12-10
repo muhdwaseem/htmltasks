@@ -1,0 +1,19 @@
+.gallery1{
+    /* float: left; */
+    display: block;
+    border: 1px solid black;
+    margin: 10px 20px ;
+    
+    width: 13%;
+    height: 17%;
+    float: left;
+    /* size: 50px; */
+}
+.gallery1 p{
+    margin: 10px 20px;
+}
+.gallery1 img{
+    
+    width: 100%;
+    
+}

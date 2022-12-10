@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: blue;
+}
+.navbar .search1 .notifi{
+    float:right;
+}
